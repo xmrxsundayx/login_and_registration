@@ -1,0 +1,9 @@
+{% extends "index.html" %}
+{% block content %}
+<body>
+    <h1>Hello {{ user.first_name }}!!!</h1>
+    <form action="/logout" name="Logout">
+        <button type="submit">Logout</button>
+    </form>
+
+{% endblock %}
